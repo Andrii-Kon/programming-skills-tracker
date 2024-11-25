@@ -1,0 +1,56 @@
+#challenges-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+#challenges-list li .title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+#challenges-list li .description {
+    flex: 1;
+    margin: 0 15px;
+    text-align: justify;
+}
+
+#challenges-list li .difficulty {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: inherit; /* Колір залежить від рівня */
+    margin-right: 10px; /* Простір між рівнем і кнопкою */
+    border: none; /* Видалено рамку */
+}
+
+#challenges-list li .difficulty.beginner {
+    color: #FF6384; /* Червоний для beginner */
+}
+
+#challenges-list li .difficulty.intermediate {
+    color: #36A2EB; /* Синій для intermediate */
+}
+
+#challenges-list li .difficulty.advanced {
+    color: #4CAF50; /* Зелений для advanced */
+}
+
+#challenges-list li .delete-challenge {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #ff4d4d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#challenges-list li .delete-challenge:hover {
+    background-color: #ff4d4d;
+    color: #fff;
+}

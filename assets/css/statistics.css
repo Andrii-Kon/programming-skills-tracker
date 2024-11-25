@@ -1,0 +1,39 @@
+.chart-container {
+    position: relative;
+    height: 60vh;
+    margin: 20px 0;
+}
+
+#data-form {
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+#data-form div {
+    margin-bottom: 15px;
+}
+
+#data-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#data-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#data-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#data-form button:hover {
+    background-color: #45a049;
+}

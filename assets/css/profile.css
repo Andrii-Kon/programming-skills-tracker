@@ -1,0 +1,35 @@
+.modal {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(46, 49, 65, 0.8);
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #353849;
+    border-radius: 5px;
+    padding: 2em;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+input[type="text"], input[type="email"] {
+    background: rgba(255, 255, 255, 0.025);
+    border-radius: 5px;
+    border: solid 2px rgba(255, 255, 255, 0.125);
+    color: #ffffff;
+    padding: 0.5em 1em;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #5b6ba6;
+}

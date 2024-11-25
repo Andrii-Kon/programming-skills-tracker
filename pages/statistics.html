@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Statistics - Programming Skills Tracker</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/statistics.css" />
+    <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="is-preload">
+
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="../index.html">Programming Skills Tracker</a></h1>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <div class="inner">
+            <h2>Menu</h2>
+            <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+            </ul>
+            <a href="#" class="close">Close</a>
+        </div>
+    </nav>
+
+    <!-- Wrapper -->
+    <section id="wrapper">
+        <header>
+            <div class="inner">
+                <h2>Statistics</h2>
+                <p>View your progress and analyze your skill improvement over time.</p>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="wrapper">
+            <div class="inner">
+                <h3 class="major">Progress Overview</h3>
+                <p>This section provides an overview of your progress in various programming skills.</p>
+
+                <h3 class="major">Skill Progress Chart</h3>
+                <p>Visualize your skill growth over time with chart.</p>
+                <div class="chart-container">
+                    <canvas id="skillsChart"></canvas>
+                </div>
+
+                <h3 class="major">Enter Your Data</h3>
+                <form id="data-form">
+                    <div>
+                        <label for="skill-name">Skill Name (e.g., JavaScript, Python):</label>
+                        <input type="text" id="skill-name" required />
+                    </div>
+                    <div>
+                        <label for="progress-values">Progress (comma-separated values):</label>
+                        <input type="text" id="progress-values" placeholder="e.g. 60,65,70,75" required />
+                    </div>
+                    <button type="submit">Update Chart</button>
+                </form>
+
+                <h3 class="major">Achievements</h3>
+                <ul class="alt">
+                    <li>Completed 100 hours of coding practice</li>
+                    <li>Achieved Intermediate level in JavaScript</li>
+                    <li>Built 5 personal projects</li>
+                    <li>Reached Advanced level in Python</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="inner">
+            <h2 class="major">Get in touch</h2>
+            <p>If you have questions or need help with the tracker, feel free to contact us.</p>
+            <form method="post" action="#">
+                <div class="fields">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message" /></li>
+                </ul>
+            </form>
+        </div>
+    </section>
+
+</div>
+
+<!-- Scripts -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/jquery.scrollex.min.js"></script>
+<script src="../assets/js/browser.min.js"></script>
+<script src="../assets/js/breakpoints.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<script src="../assets/js/main.js"></script>
+
+<!-- Link to statistics.js -->
+<script src="../assets/js/statistics.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Profile - Programming Skills Tracker</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/profile.css" />
+    <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="../index.html">Programming Skills Tracker</a></h1>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <div class="inner">
+            <h2>Menu</h2>
+            <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+            </ul>
+            <a href="#" class="close">Close</a>
+        </div>
+    </nav>
+
+    <!-- Wrapper -->
+    <section id="wrapper">
+        <header>
+            <div class="inner">
+                <h2>Your Profile</h2>
+                <p>Manage your personal details and settings.</p>
+            </div>
+        </header>
+
+        <!-- Profile Content -->
+        <div class="wrapper">
+            <div class="inner">
+                <h3 class="major">Profile Information</h3>
+                <p><strong>Name:</strong> <span id="profile-name">Not Set</span></p>
+                <p><strong>Email:</strong> <span id="profile-email">Not Set</span></p>
+                <button id="edit-profile-btn" class="button primary">Edit Profile</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Editing Profile -->
+    <div id="edit-profile-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Edit Profile</h2>
+            <form id="edit-profile-form">
+                <div class="field">
+                    <label for="edit-name">Name</label>
+                    <input type="text" name="name" id="edit-name" placeholder="Enter your name" required />
+                </div>
+                <div class="field">
+                    <label for="edit-email">Email</label>
+                    <input type="email" name="email" id="edit-email" placeholder="Enter your email" required />
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Save Changes" class="button primary" /></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<section id="footer">
+    <div class="inner">
+        <h2 class="major">Need Help?</h2>
+        <p>Feel free to reach out to us for assistance with your profile or settings.</p>
+    </div>
+</section>
+
+<!-- Scripts -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/jquery.scrollex.min.js"></script>
+<script src="../assets/js/browser.min.js"></script>
+<script src="../assets/js/breakpoints.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/profile.js"></script>
+
+</body>
+</html>

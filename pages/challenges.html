@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Challenges - Programming Skills Tracker</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/challenges.css" />
+    <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="../index.html">Programming Skills Tracker</a></h1>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <div class="inner">
+            <h2>Menu</h2>
+            <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+            </ul>
+            <a href="#" class="close">Close</a>
+        </div>
+    </nav>
+
+    <!-- Wrapper -->
+    <section id="wrapper">
+        <header>
+            <div class="inner">
+                <h2>Programming Challenges</h2>
+                <p>Take on challenges to improve your programming skills!</p>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="wrapper">
+            <div class="inner">
+                <h3 class="major">Available Challenges</h3>
+                <ul id="challenges-list" class="alt">
+                    <!-- List of challenges will be dynamically populated here -->
+                </ul>
+
+                <h3 class="major">Add a New Challenge</h3>
+                <form id="add-challenge-form">
+                    <div class="fields">
+                        <div class="field">
+                            <label for="challenge-title">Challenge Title</label>
+                            <input type="text" id="challenge-title" placeholder="E.g., Build a Calculator App" required />
+                        </div>
+                        <div class="field">
+                            <label for="challenge-description">Description</label>
+                            <textarea id="challenge-description" placeholder="Describe the challenge..." required></textarea>
+                        </div>
+                        <div class="field">
+                            <label for="challenge-level">Difficulty Level</label>
+                            <select id="challenge-level" required>
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                            </select>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Add Challenge" class="primary" /></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- Scripts -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/jquery.scrollex.min.js"></script>
+<script src="../assets/js/browser.min.js"></script>
+<script src="../assets/js/breakpoints.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/challenges.js"></script>
+
+</body>
+</html>
